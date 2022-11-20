@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:500");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #012d58;
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3 ease 0s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.ctn button{
+    padding: 9px 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    color: black;
+}
+
+button:hover{
+    color: #0088a9;
+}
+
+/*carrusel*/
+.carousel{
+    width: 100%;
+    height: auto;
+}
+.photo{
+    height: 83vh;
+}
+/*card*/
+
+.box{
+    margin: 2.8rem;
+    width: 20%;
+    height: auto;
+    box-shadow:  2px 2px 5px #888888;
+    display: inline-block;
+}
+
+.foto{
+    width: 100%;
+}
+
+.container-info h2{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.box h2{
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.box p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+.form .input{
+    text-align: center;
+}
+
+.form .btn:hover{
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #012d58;
+    color: #fff;
+}
